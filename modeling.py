@@ -20,6 +20,9 @@ stop_words = stopwords.words('english')
 import spacy
 nlp = spacy.load("en_core_web_sm")  # Use the appropriate model
 from pprint import pprint
+import nltk
+nltk.download('stopwords')
+
 import logging
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.ERROR)
 
