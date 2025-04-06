@@ -10,8 +10,6 @@ wordcloud
 nltk
 spacy
 pprintpp
-logging
-warnings
 pyLDAvis
 pickle-mixin
 scipy
