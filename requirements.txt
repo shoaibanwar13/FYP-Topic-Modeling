@@ -13,3 +13,4 @@ pprintpp
 pyLDAvis
 pickle-mixin
 scipy
+django
