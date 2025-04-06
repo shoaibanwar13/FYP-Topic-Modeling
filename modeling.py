@@ -38,7 +38,10 @@ import datetime as dt
 from collections import Counter
 from scipy.stats import entropy
 import nltk
-nltk.download('stopwords')
+try:
+    nltk.data.find("corpora/stopwords")
+except LookupError:
+    nltk.download("stopwords")
 import io 
 app = FastAPI()
 
