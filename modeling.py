@@ -15,8 +15,6 @@ from gensim.utils import simple_preprocess
 from gensim.corpora import Dictionary
 from gensim import corpora
 from wordcloud import WordCloud
-from nltk.corpus import stopwords
-stop_words = stopwords.words('english')
 import spacy
 nlp = spacy.load("en_core_web_sm")  # Use the appropriate model
 from pprint import pprint
@@ -40,8 +38,10 @@ from scipy.stats import entropy
 import nltk
 nltk.download("stopwords", quiet=True, force=True)
 from nltk.corpus import stopwords
+stop_words = stopwords.words('english')
+ 
 
-stop_words = stopwords.words("english")
+ 
 import io 
 app = FastAPI()
 
