@@ -14,9 +14,7 @@ import gensim
 from gensim.utils import simple_preprocess
 from gensim.corpora import Dictionary
 from gensim import corpora
-from wordcloud import WordCloud
-import spacy
-nlp = spacy.load("en_core_web_sm")  # Use the appropriate model
+from wordcloud import WordCloud # Use the appropriate model
 from pprint import pprint
 import logging
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.ERROR)
@@ -39,6 +37,8 @@ import nltk
 nltk.download("stopwords", quiet=True, force=True)
 from nltk.corpus import stopwords
 stop_words = stopwords.words('english')
+from spacy.cli import download
+download("en_core_web_sm")
  
 
  
