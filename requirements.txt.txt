@@ -2,10 +2,16 @@ fastapi
 uvicorn
 pandas
 scikit-learn
+numpy
 matplotlib
+xmltodict
 gensim
 wordcloud
 nltk
 spacy
+pprintpp
+logging
+warnings
 pyLDAvis
- 
+pickle-mixin
+scipy
