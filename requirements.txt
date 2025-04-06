@@ -14,3 +14,4 @@ pyLDAvis
 pickle-mixin
 scipy
 django
+python-multipart
